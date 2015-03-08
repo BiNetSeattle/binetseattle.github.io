@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>Add a New Event</title>
+
+
+<head>
+<meta NAME="copyright" CONTENT="BiNet Seattle" />
+<meta NAME="authors" CONTENT="Robert Honan, Marc D. Snyder" />
+<meta NAME="rating" CONTENT="General" />
+<meta name="distribution" content="Global" />
+<meta name="language" content="English" />
+<meta name="doc-type" content="Web Page" />
+<meta name="doc-class" content="Living Document" />
+<meta name="doc-rights" content="Copywritten Work" />
+<meta NAME="copyright" CONTENT="BiNet Seattle" />
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+<script type="text/javascript">
+
+function bookmarksite(title, url){
+if (document.all)
+window.external.AddFavorite(url, title);
+else if (window.sidebar)
+window.sidebar.addPanel(title, url, "")
+}
+
+</script>
+<script language="JavaScript1.2">
+<!--
+
+//Open offsite links in new window option- By Jessica Hammer
+//Heavily modified by Dynamic Drive
+//Visit http://www.dynamicdrive.com for this script
+
+//1)Enter domains to be EXCLUDED from opening in new window:
+var excludedomains=["binetseattle", "javascriptkit.com"]
+
+//2)Automatically open offsite links in new window? (1=yes, 0 will render a checkbox for manual selection)
+var auto=1
+
+var excludedomains=excludedomains.join("|")
+rexcludedomains=new RegExp(excludedomains, "i")
+
+if (!auto)
+document.write('<form name="targetmain"><input type="checkbox" name="targetnew" checked onClick="dynamiclink()">Open off-site links in new window</form>')
+
+function dynamiclink(){
+
+if (auto||(!auto&&document.targetmain.targetnew.checked)){
+for (i=0; i<=(document.links.length-1); i++) {
+if (document.links[i].hostname.search(rexcludedomains)==-1&&document.links[i].href.indexOf("http:")!=-1)
+document.links[i].target="_blank"
+}
+}
+else
+for (i=0; i<=(document.links.length-1); i++) {
+if (document.links[i].hostname.indexOf(mydomain)==-1)
+document.links[i].target=""
+}
+}
+
+if (auto)
+window.onload=dynamiclink
+
+// -->
+</script>
+</head>
+<body>
+<table width="800" cellpadding="10" align="center">
+    <tr>
+        <td width="200"><img src="../images/biprideflag.gif" width="87" height="83" border="0" alt="BiPride Flag"></p></td>
+        <td width="600">
+      <div align="center"> 
+                <p><img src="../images/binet_logo2.gif" width="362" height="117" border="0" alt="BiNetSeattle"></p>
+</div>
+</td>
+    </tr>
+    <tr>
+        <td width="200" height="400" valign="top" bgcolor="#ADD8E6">
+<p>
+<a target="_blank" href="http://www.google.com/calendar/render?cid=kdhr9csv4pd1apu0c3i7j3g9hk%40group.calendar.google.com"><img src="http://www.google.com/calendar/images/ext/gc_button1_en.gif" border=0></a>
+<ul>
+<li><a href="../index.html" class="nav">Home Page</a><p>
+<li><a href="../calendar.html" class="nav">BiNet Seattle Calendar</a><p>
+<li><a href="../topics/meetings.html" class="nav">BiNet Seattle Meetings</a><p>
+<li><a href="../topics/whatis.html" class="nav">What is Bisexuality?</a><p>
+<li><a href="../topics/faq.html" class="nav">Bisexual FAQ's</a><p>
+<li><a href="../topics/other.html" class="nav">Seattle Bi Meetings</a><p>
+<!-- <li><a href="../topics/calendar.html" class="nav">Upcoming Events</a><p> -->
+<li><a href="../topics/new_event.html" class="nav">Suggest New Event</a><p>
+<li><a href="../topics/lists.html" class="nav">Join Our Lists</a><p>
+<li><a href="../topics/links.html" class="nav">Bisexual Links</a><p>
+<li><a href="javascript:bookmarksite('BiNetSeattle', 'http://www.binetseattle.org')" class="nav">Bookmark BiNetSeattle.Org!</a><p>
+<li><a href="../topics/linkto.html" class="nav">Link to BiNetSeattle.Org</a><p>
+<li><a href="../topics/feedback.html" class="nav">Comments/Feedback</a>
+</ul>
+</div>
+</td>
+        <td width="500" height="400" valign="top">
+
+<h1>Add a New Event</h1>
+We've disabled this form.
+
+        </td>
+    </tr>
+</table>
+<p><p>
+<div align="center">
+<a href="../index.html">Home Page</a>
+ | </font><a href="javascript:bookmarksite('BiNetSeattle', 'http://www.binetseattle.org')">Bookmark this site!</a> | <a href="../topics/linkto.html">Link to Us</a> | <a href="../topics/feedback.html" class="nav">Feedback</a>
+</p>
+</div>
+</body>
+</html>
